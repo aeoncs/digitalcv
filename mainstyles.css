@@ -31,6 +31,13 @@ a:hover
             color: #ffdd44; /* Change color on hover */
             text-decoration-line: underline;    
         }
+
+#achievements li:hover, #experience ul li:hover
+        
+        { /* Set list items in the experience and achievements sections to change on hover */
+
+            background-color:#145479;
+        }
 /* Change formatting only for the links in the links section id */
 #links a
         {
@@ -101,7 +108,9 @@ a:hover
 
     #aboutme
         {
-            padding: 15px;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 30px;
         }
 
     #projects, #experience
@@ -197,12 +206,16 @@ a:hover
         {
             display: flex;
             flex-direction: column;
+            
+            
         }
 
     #achievements ul
         {
             display:flex;
             flex-direction: column;
+            align-items: left;
+            padding-left: 200px;
             
         }
 
@@ -218,13 +231,9 @@ a:hover
             letter-spacing: .1em;
         }
 
-    ul li:hover 
-        
-        { /* Set list items to change on hover */
-
-            background-color:#145479;
-        }
     
+
+
        /* ========== Input form styling ========== */
 
     .contact-form 
