@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Hacker Man Digital CV</title>
+               <link rel="stylesheet" href="mainstyles.css">
+                 
+        </head>
+<body>
+ 
+<section id="name">
+    
+    
+            <img src="hackerman.jpg" alt="A picture of the digital cv holder - Hacker Man" id="img1">
+        
+            <h1>Hacker Man</h1>
+         
+
+            <p>
+             Email: realfakeemail@email.com<br>
+             Phone: (123) 456 - 7890
+            </p>
+</section>
+
+<section id="aboutme">
+        <h2>About Me</h2>
+            <p>Aspiring software engineer with a passion for middle out compression and other state of the art and emerging technologies.<br><br>
+            Previously a Firefighter/Paramedic, now medically retired and attending Gonzaga University Software Engineering Bootcamp.</p>
+</section>
+
+
+    
+<section id="Education">
+        <h2> Education </h2>
+
+<!-- Table that has a column for School, Description of Education received, and years attended  -->
+                <table id="educationtable">
+                    <thead>
+                        <tr>
+                            <th>School</th>
+                            <th>Description</th>
+                            <th>Years Attended</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gonzaga University</td>
+                            <td>Software Engineering Bootcamp through Springboard</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>Victor Valley Community College</td>
+                            <td>Paramedicine & Emergency Medical Services Management</td>
+                            <td>2010-2011</td>
+                        </tr>
+                        <tr>
+                            <td>Victor Valley Community College</td>
+                            <td>Emergency Medical Technician & Fire Science</td>
+                            <td>2006-2007</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+<br>
+</section>
+
+<section id="experience">
+
+ 
+        <h2> Experience </h2>
+        <!-- Creates an ordered list with an unordered list nested inside -->
+            <ol>
+                <li><h3> Web Development </h3>
+
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                        <li>DOM Manipulation using Vanilla JavaScript and jQuery</li>
+                        <li>Node.js & Express</li>
+                        <li>Python & Flask</li>
+                        <li>React & Redux</li>
+                    </ul>
+                </li>
+
+                <li><h3> Database </h3>
+
+                    <ul>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Node-pg & SQLAlchemy</li>
+                    </ul>
+                </li>
+
+                <li><h3>Testing</h3>
+
+                    <ul>
+                        <li>Unit testing with Aladdin </li>
+                    </ul>
+                </li>
+                
+                <li><h3>Other Tech</h3>
+
+                    <ul>
+                        <li>AI Prompt Engineering</li>
+                        <li>Command Line</li>
+                        <li>Git & GitHub</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Data Structures</li>
+                    </ul>
+                </li>
+            </ol>
+</section>
+
+
+
+<section id="achievements">
+    <!-- This section contains made up achievements for content -->
+     <!-- Achievements in an unordered list -->
+        <h2>Achievements</h2>
+            <ul>
+                <li>Winner of VibeTechCoding 1st annual VibeCoding Cup 2025</li>
+                <li>Runnerup in the GitHub Git-er-Done GitGab</li>
+                <!-- a joke link -->
+                <li>1st Place - 4th annual 404 Not Found Foundational <a href="404.html">Link</a></li> 
+            </ul>
+</section>
+
+
+
+<section id="projects">
+        <h2>Projects</h2>
+        <!-- A list of fake projects  -->
+        <ul>
+            <li><a href="https://drive.google.com/drive/folders/16nMxiJqSxR4pmUYo7oqcOFS3hdaG9oPv?usp=drive_link">Digital CV</a> - A Digital CV built with HTML, CSS & JavaScript. Sound Familiar?<br></li>
+            <li><a href="index.html">Homie</a> - A full-stack app designed to make home life simpler. Uses user inputs combined with location and user data to help with scheduling and productivity in everyday life.<br></li>
+            <li><a href="index.html">Dude? Where's My Car?</a> - An app that utilizes the power of gyroscopic functions to determine location after high rates of speed. Never forget where you parked again! <br></li>
+        </ul>
+</section>
+
+
+
+<section id="links">
+
+        <h2>Links</h2>
+       
+
+            <a href="https://github.com/aeoncs?tab=repositories">GitHub</a>
+            <a href="https://www.linkedin.com/in/derek-cantarini-52b379357/">LinkedIn</a>
+
+</section>
+
+
+
+<section id="contactsection">
+<!-- Contact Form -->   
+
+        <h2>Contact Me</h2>
+    <form id="contact" class="contact-form" action="#">
+    
+    <div>
+        <!-- Name Field -->
+        <label for="nameinput">Full Name:</label>
+        <input type="text" id="nameinput" name="name" placeholder="*Enter your full name*" required>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="*Enter your email*" required>
+
+        <!-- Phone Number Field -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="*Enter your phone number*">
+
+        <!-- Organization Field -->
+        <label for="organization">Organization:</label>
+        <input type="text" id="organization" name="organization" placeholder="*Your organization*" required>
+
+        <!-- Role Field -->
+        <label for="role">Your Role:</label>
+        <input type="text" id="role" name="role" placeholder="Your role (optional)">
+    </div>
+        <!-- Reason for Contact -->
+        <label>Reason for Contact:</label>
+        <select name="reason" required>
+            <option value="">*-- Select a reason --*</option>
+            <option value="job">Job Offer</option>
+            <option value="collab">Collaboration</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Preferred Contact Method -->
+        <label>Preferred Contact Method:</label>
+        
+        <label id="emaillabel" for="emailinput">Email</label>
+        <input type="radio" id="emailinput" name="contact-method" value="email" checked>
+        <label id="phonelabel" for="phoneinput">Phone</label>
+        <input type="radio" id="phoneinput" value="phone" name="contact-method"><br><br>
+        <!-- Message Field -->
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message"  placeholder="*Please leave a short message detailing your reason for contact. Thank you.*" ></textarea>
+        <!-- Consent Checkbox -->
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">I agree to be contacted via my preferred method.</label><br><br>
+        
+        <!-- Submit Button -->
+        <button id="submitbutton" type="submit" action="#">Send Message</button>
+    </form>
+</section>
+
+
+
+<br><br>
+</body>
+</html>
