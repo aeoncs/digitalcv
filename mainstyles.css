@@ -44,6 +44,12 @@ a:hover
             letter-spacing: 0.1em;
         }
 
+#links a, #links p
+        {
+    
+
+        }
+
 
         
         /* Adjusting Parameters for all screens greater than 800px */
